@@ -1,0 +1,456 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color:orangered;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+ .navbar-nav {
+  margin-left: 700px;
+ }
+ .h1-1 {
+   font-size: 60px;
+   padding-top: 100px;
+ }
+  .input-1 {
+    height: 35px;
+    width: 350px;
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  /* .btn {
+    width: 300px;
+  } */
+  .power-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .love-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .job-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .green-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .cer-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .work-icon {
+    margin-left: 180px;
+    color: orangered
+  }
+  .img-1 {
+    height: 280px;
+    width: 400px;
+  }
+  .img-2 {
+    height: 280px;
+    width: 400px;
+  }
+  .img-3 {
+    height: 280px;
+    width: 400px;
+  }
+  .color-img {
+    height: 80px;
+    width: 400px;
+    background-color: white;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color:orangered;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .slider {
+    height: 250px;
+    padding-top: 80px;
+    position: relative;
+  }
+   .basic-1 {
+    height: 100px;
+    width: 380px;
+    border: solid 2px orangered;
+    background-color: orangered;
+    color: white;
+    padding-top: 15px;
+    margin-left: -13px;
+  }
+  .basic-2 {
+    height: 100px;
+    width: 380px;
+    border: solid 2px orangered;
+    background-color: orangered;
+    color: white;
+    padding-top: 15px;
+    margin-left: -13px;
+  }
+  .basic-3 {
+    height: 100px;
+    width: 380px;
+    border: solid 2px orangered;
+    background-color: orangered;
+    color: white;
+    padding-top: 15px;
+    margin-left: -13px;
+  }
+  .btn-up {
+    background-color: orangered;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .btn-up1 {
+    background-color: orangered;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .btn-up2 {
+    background-color: orangered;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .btn-up:hover {
+    background-color:whitesmoke;
+    color:orangered;
+    border: solid 2px orangered;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .btn-up1:hover {
+    background-color:whitesmoke;
+    color:orangered;
+    border: solid 2px orangered;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .btn-up2:hover {
+    background-color:whitesmoke;
+    color:orangered;
+    border: solid 2px orangered;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .coll-1 {
+    height: 500px;
+    width: 380px;
+    border: solid 1px orangered;
+    margin-left: 50px;
+  }
+  .coll-2 {
+    height: 500px;
+    width: 380px;
+    border: solid 1px orangered;
+    margin-left: 50px;
+  }
+  .coll-3 {
+    height: 500px;
+    width: 380px;
+    border: solid 1px orangered;
+    margin-left: 50px;
+  }
+  .contact-page {
+    color: grey;
+  }
+  .in-name {
+    height: 35px;
+    width: 350px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+  }
+  .in-email {
+    height: 35px;
+    width: 350px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+  }
+  .in-com {
+    height: 120px;
+    width: 720px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+
+  }
+  .btn-send {
+    margin-left: 670px;
+    margin-top: 30px;
+  }
+  .bg-img {
+    background: url(map.jpg);
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+  }
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  @media screen and (max-width:767px) {
+    .h1-1 {
+      font-size: 40px;
+      padding-top: 100px;
+    }
+    .nav-link {
+      color: white;
+    }
+    .input-1 {
+      height: 35px;
+      width: 200px;
+      border: solid 2px whitesmoke;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .chart-img {
+      margin-left: 50px;
+    }
+    .btn-1 {
+      width: 300px;
+    }
+    .globe-img {
+      margin-left: 70px;
+      margin-top: 70px;
+    }
+    .power-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .love-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .job-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .green-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .cer-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .work-icon {
+      margin-left: 120px;
+      color: orangered
+    }
+    .img-1 {
+      height: 200px;
+      width: 270px;
+      margin-left: 25px !important;
+    }
+    .img-2 {
+      height: 200px;
+      width: 270px;
+      margin-left: 25px !important;
+      margin-top: 30px;
+    }
+    .img-3 {
+      height: 200px;
+      width: 270px;
+      margin-left: 25px !important;
+      margin-top: 30px;
+    }
+    
+    .color-img {
+      height: 80px;
+      width: 270px;
+      background-color: white;
+      margin-left: 25px !important;
+    }
+    .coll-1 {
+      height: 480px;
+      width: 255px;
+      border: solid 1px orangered;
+      
+    }
+    .basic-1 {
+      height: 100px;
+      width: 260px;
+      border: solid 2px orangered;
+      background-color: orangered;
+      color: white;
+      padding-top: 15px;
+      margin-left: -13px;
+    }
+    .btn-up {
+      width: 210px;
+      background-color: orangered;
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .btn-up:hover {
+      background-color:whitesmoke;
+      color:orangered;
+      border: solid 2px orangered;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .coll-2 {
+      height: 480px;
+      width: 255px;
+      border: solid 1px orangered;
+      margin-top: 70px;
+
+    }
+    .basic-2 {
+      height: 100px;
+      width: 255px;
+      border: solid 2px orangered;
+      background-color: orangered;
+      color: white;
+      padding-top: 15px;
+      margin-left: -13px;
+    }
+    .btn-up1 {
+      width: 210px;
+      background-color: orangered;
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .btn-up1:hover {
+      background-color:whitesmoke;
+      color:orangered;
+      border: solid 2px orangered;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .coll-3 {
+      height: 480px;
+      width: 255px;
+      border: solid 1px orangered;
+      margin-top: 70px;
+
+    }
+    .basic-3 {
+      height: 100px;
+      width: 255px;
+      border: solid 2px orangered;
+      background-color: orangered;
+      color: white;
+      padding-top: 15px;
+      margin-left: -13px;
+    }
+    .btn-up2 {
+      width: 210px;
+      background-color: orangered;
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .btn-up2:hover {
+      background-color:whitesmoke;
+      color:orangered;
+      border: solid 2px orangered;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .in-name {
+      height: 35px;
+      width: 285px;
+      border: solid 1px #ccc;
+      border-radius: 5px;
+      margin-left: -20px;
+   }
+    .in-email {
+    height: 35px;
+    width: 285px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin-left: -20px;
+    margin-top: 15px;
+  }
+    .in-com {
+      height: 120px;
+      width: 285px;
+      border: solid 1px #ccc;
+      border-radius: 5px;
+      margin-top: 15px;
+      margin-left: -20px;
+   }
+   .btn-send {
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+  .bg-img {
+    background: url(map.jpg);
+    height: 300px;
+    background-size: cover;
+   
+  }
+  
+  
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
